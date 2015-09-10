@@ -105,7 +105,7 @@ int tcp_server_uici(int max_cli, int ser_port, char* ser_ip)
 }
 
 //创建服务器的通用函数，此函数只适用于Liunx系统下UDP协议的IPV4
-//参数ser_port为服务器端口号
+//参数ser_port端口号
 //参数ser_ip为服务器ip地址,如果为NULL，则由系统自动分配ip
 //本函数成功返回套接字描述符，错误返回-1
 int udp_server_uici(int ser_port, char* ser_ip)

@@ -12,6 +12,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <pthread.h>
+#include <assert.h>
 
 //端口号
 #define		PORT	8000
